@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.entete img {
+  border-radius: 50%;
+  width: 10vw;
+  height: 20vh;
+}
+
+.entete {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.entete a {
+  color: #B40303;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.entete a:hover {
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+
+#menu ul a:hover {
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+
+#menu ul a {
+  color: #B40303;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+#menu ul {
+  border: #B40303 solid;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #F8E3E3;
+  /* border-radius: 50%; */
+  width: 100vw;
+  height: 10vh;
+}
+
+img {
+  border-radius: 10%;
+  /* border: #B40303 solid; */
+}
+
+article {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  align-items: center;
+}
+
+#visite {
+  display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-top: 2%;
+  gap: 5vw;
+}
+
+#fleurs {
+  width: 20vw;
+  display: flex;
+  flex-direction: column;
+  background-color: #F8E3E3;
+  border-radius: 10%;
+}
+
+/*page contact*/
+
+.schedule {
+  width: 20%;
+  color: #B40303;
+  font-size: 1.5em;
+}
+
+table {
+  width: 20vw;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #B40303;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #F8E3E3;
+}
+
+h2 {
+  color: #B40303;
+}
+
+/*page Qui sommes nous*/
+#quisommesnous {
+  display: flex;
+  gap: 2vw;
+
+}
+
+#textQui {
+  margin-right: 5vw;
+  width: 100%;
+}
+
+#quisommesnous img {
+  margin-left: 2vw;
+}
+
+/* Styles pour l'en-tête */
+header {
+  /* background-color: #f9f9f9; */
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  font-size: 36px;
+  color: #B40303;
+}
+
+
+/* Styles pour le contenu principal */
+main {
+  width: 100%;
+  margin: 0 auto;
+}
+
+h2 {
+  font-size: 24px;
+  margin-top: 40px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+/* Styles pour le pied de page */
+footer {
+  background-color: #F8E3E3
+}
+
+/*page contact*/
+.mainContact {
+  display: flex;
+  /* flex-direction: column; */
+  gap: 10vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+/*page boutique*/
+.current-day {
+  background-color: yellow;
+}
+.articleBoutique{
+  display: flex;
+  gap: 10px;
+}
+#inscription {
+  margin-left: 5vw;
+  width: 20vw;
+}
+
+#inscription p {
+  display: flex;
+  gap: 2vw;
+  justify-content: space-between;
+}
+
+#authentification {
+  margin-left: 5vw;
+  width: 20vw;
+}
+
+#authentification p {
+  display: flex;
+  gap: 2vw;
+  justify-content: space-between;
+}
+
+#accueil {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#accueil img {
+  width: 80%;
+  height: 70vh;
+}
+
+/*style footer*/
+#footer div {
+  display: flex;
+  justify-content: center;
+}
+
+#footer {
+  margin-top: 10%;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  border: 1px solid #B40303;
+}
+
+#footer p {
+  /* text-align: center; */
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+/*style page boutique */
+h3 {
+  font-size: 1.5em;
+  color: #B40303;
+}
+
+li {
+  list-style: none;
+  font-size: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  left: 5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #F8E3E3;
+  border: #B40303 solid;
+  /* width: 10vw;
+  height: 42vh; */
+}
+
+aside a:hover {
+  color: black;
+  text-shadow: 1px 1px 2px black;
+}
+
+aside a {
+  color: #B40303;
+}
+
+.pageContact {
+  margin-left: 5vw;
+}
+
+#panier {
+  margin-left: 5vw;
+}
+
+#commande {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#articlePanier {
+  display: flex;
+  gap: 5vw;
+  color: #B40303;
+}
+
+#articlePanier a {
+  color: #B40303;
+}
+
+#droite {
+  display: none;
+}
+
+@media (max-width:690px) {
+  #gauche {
+    display: none;
+  }
+
+  #droite {
+    display: block;
+  }
+
+  .entete img {
+    border-radius: 50%;
+    width: 50vw;
+    height: 20vh;
+  }
+
+  #blabla {
+    font-size: 0.7em;
+  }
+
+  #accueil img {
+    width: 80%;
+    height: 30vh;
+  }
+
+  h1 {
+    font-size: 1em;
+  }
+
+  #quisommesnous img {
+    width: 80%;
+    height: 30vh;
+  }
+
+  #quisommesnous {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+
+  #inscription {
+    width: 80%;
+  }
+
+  #authentification {
+    width: 80%;
+  }
+
+  .mainContact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .schedule {
+    width: 100%;
+  }
+
+  .schedule table {
+    width: 100%;
+  }
+
+  iframe {
+    width: 100%;
+  }
+  .articleBoutique{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  #fleurs img {
+    width: 100%;
+  }
+
+  #fleurs {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  #categories {
+    /* position: fixed; */
+    height: 100%;
+  }
+
+  #visite {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .add {
+    width: 50vw;
+  }
+
+  #textQui {
+    margin-right: 0vw;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #articlePanier {
+    display: flex;
+    flex-direction: column;
+  }
+}
